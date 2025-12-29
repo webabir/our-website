@@ -67,7 +67,7 @@ $(function () {
 
         // Aos Initialize
         AOS.init({
-          duration: 1000,
+          duration: 8000,
         });
 
     })// document ready
