@@ -73,7 +73,7 @@ $(function () {
       //type.js
           var typed = new Typed('#typed', {
           strings: ['<i>First</i> sentence.', '&amp; Welcome To The Web Builder.'],
-          typeSpeed: 50,
+          typeSpeed: 10,
     });
 
     })// document ready
