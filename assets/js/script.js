@@ -68,7 +68,7 @@ $(function () {
       
           var typed = new Typed('#typed', {
           strings: ['Welcome To The Web Builder.'],
-          typeSpeed: 20
+          typeSpeed: 2000,
           });
       
         // Aos Initialize
