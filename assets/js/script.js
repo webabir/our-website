@@ -76,7 +76,7 @@ $(function () {
           typeSpeed: 0,
           backSpeed: 0,
           backDelay: 500,
-          startDelay: 1000,
+          startDelay: 2000,
           loop: false,
         });
 
