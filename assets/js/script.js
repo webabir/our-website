@@ -76,5 +76,6 @@ $(function () {
           typeSpeed: 10,
     });
 
+      
     })// document ready
 })
