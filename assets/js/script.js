@@ -69,6 +69,16 @@ $(function () {
         AOS.init({
           duration: 1000,
         });
+      
+      //type.js
+        var typed = new Typed("#typed", {
+          stringsElement: '#typed-strings',
+          typeSpeed: 0,
+          backSpeed: 0,
+          backDelay: 500,
+          startDelay: 1000,
+          loop: false,
+        });
 
     })// document ready
 })
