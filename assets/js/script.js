@@ -64,17 +64,21 @@ $(function () {
             }
           );
         });
-
+      //type.js
+      
+          var typed = new Typed('#typed', {
+          strings: ['Welcome To The Web Builder.'],
+          typeSpeed: 20
+          });
+      
         // Aos Initialize
         AOS.init({
           duration: 5000,
         });
       
-      //type.js
-          var typed = new Typed('#typed', {
-          strings: ['Welcome To The Web Builder'],
-          typeSpeed: 100,
-    });
+      
+    
 
+      
     })// document ready
 })
