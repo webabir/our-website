@@ -71,14 +71,10 @@ $(function () {
         });
       
       //type.js
-        var typed = new Typed("#typed", {
-          stringsElement: '#typed-strings',
-          typeSpeed: 0,
-          backSpeed: 0,
-          backDelay: 500,
-          startDelay: 2000,
-          loop: false,
-        });
+          var typed = new Typed('#typed', {
+          strings: ['<i>First</i> sentence.', '&amp; Welcome To The Web Builder.'],
+          typeSpeed: 50,
+    });
 
     })// document ready
 })
