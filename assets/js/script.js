@@ -66,11 +66,16 @@ $(function () {
         });
       //type.js
       
-          var typed = new Typed('#typed', {
-          strings: ['Welcome To The Web Builder.'],
-          typeSpeed: 2000,
-          });
-      
+          // var typed = new Typed('#typed', {
+          // strings: ['Welcome To The Web Builder.'],
+          // typeSpeed:1,
+          // });
+          
+        var typed = new Typed('#element', {
+        strings: ['<i>First</i> Welcome To The Web Builder.'],
+        typeSpeed: 10,
+        });
+          
         // Aos Initialize
         AOS.init({
           duration: 1000,
