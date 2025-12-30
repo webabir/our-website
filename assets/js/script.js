@@ -71,7 +71,7 @@ $(function () {
           // typeSpeed:1,
           // });
           
-        var typed = new Typed('#element', {
+        var typed = new Typed('#typed', {
         strings: ['<i>First</i> Welcome To The Web Builder.'],
         typeSpeed: 10,
         });
