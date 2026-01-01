@@ -64,11 +64,15 @@ $(function () {
             }
           );
         });
-
+     
         // Aos Initialize
         AOS.init({
           duration: 1000,
         });
+      
+      
+    
 
+      
     })// document ready
 })
