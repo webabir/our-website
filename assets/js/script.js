@@ -64,7 +64,7 @@ $(function () {
             }
           );
         });
-     
+
         // Aos Initialize
         AOS.init({
           duration: 1000,
